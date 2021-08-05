@@ -14,7 +14,13 @@ if(keyboard_check_pressed(vk_space)){
     dy = -10;
 }
 
-image_angle = point_direction(0, 0, dx+5, dy)
+//image_angle = point_direction(0, 0, dx+5, dy)
+
+if(dy < 0){
+	image_index = 0; 	
+}else{
+	image_index = 1;	
+}
 
 if(x > room_width){
 	room_goto_next();
