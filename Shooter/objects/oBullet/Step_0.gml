@@ -7,12 +7,13 @@
 // death animation
 {
 	if(not place_free(x, y)){
-		if(image_index == 0){
+		instance_destroy();
+		/*if(image_index == 0){
 			alarm[0] = 15;
 		}
 		dx = 0;
 		dy = 0;
-		image_index = 1;	
+		image_index = 1;*/	
 	}
 }
 

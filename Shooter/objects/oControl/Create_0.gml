@@ -9,3 +9,21 @@ max_shake_dist = 32;
 	bkg_lights = layer_get_id("Lights");
 	bkg_lights2 = layer_get_id("Lights2");
 }
+
+/*function test(t){
+	show_debug_message(t);	
+}lerp(
+
+instance_create_depth()
+place_free(
+make_color_rgb(
+
+place_meeting()
+instance_place(
+
+part_type_create
+part_system_
+
+ps_distr_linear*/
+
+

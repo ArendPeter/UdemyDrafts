@@ -1,0 +1,12 @@
+All sprites need updated art w/ a few exceptions
+
+Invisible Sprites
+ * sFlame
+ * sSolid
+ 
+Tileset
+	I added a quick tileset, could you use the same weird margins and offsets? I want to show them how to handle it
+	
+Platform
+	This uses Game Maker's nine-slice
+	The corners can be any size you like
